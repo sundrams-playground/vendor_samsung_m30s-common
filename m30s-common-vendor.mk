@@ -106,6 +106,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprofileparamstorage.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
+    vendor/samsung/m30s-common/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
+    vendor/samsung/m30s-common/proprietary/vendor/lib/libremosaiclib_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaiclib_s5k3p8sp.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsamsungDiamondVoice.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsamsungDiamondVoice.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudiocoreutils.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecaudioinfo.so \
@@ -167,6 +169,9 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libiwt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiwt.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
+    vendor/samsung/m30s-common/proprietary/vendor/lib64/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaic_daemon.so \
+    vendor/samsung/m30s-common/proprietary/vendor/lib64/libremosaiclib_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib_s5k3p8sp.so \
+    vendor/samsung/m30s-common/proprietary/vendor/lib64/libremosaiclib_s5kgm2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib_s5kgm2.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
