@@ -74,7 +74,7 @@
         </MediaCodec>
         <MediaCodec name="c2.android.h263.encoder" type="video/3gpp" update="true">
             <!-- measured 90%:130-200 med:165 N=2 -->
-            <Limit name="measured-frame-rate-176x144" range="400-800" /> <!-- v90%=1.0 -->
+            <Limit name="measured-frame-rate-176x144" range="130-200" /> <!-- v90%=1.0 -->
         </MediaCodec>
 	<MediaCodec name="c2.android.avc.encoder" type="video/avc" update="true">
             <!-- measured 90%:345-350 med:345 N=2 -->
