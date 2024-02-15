@@ -64,14 +64,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/gatekeeper.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9611.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/hw/gralloc.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gralloc.exynos9611.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/hw/hwcomposer.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/hwcomposer.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/memtrack.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.sensorhub.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosHWCService.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Core.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSEF.quram.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libSamsungPostProcessConvertor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSamsungPostProcessConvertor.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/lib_SamsungRec_07001.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SamsungRec_07001.so \
@@ -79,29 +73,17 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib/lib_SoundBooster_ver1000.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_SoundBooster_ver1000.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/lib_soundaliveresampler.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_soundaliveresampler.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libaboxpcmdump.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaboxpcmdump.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacryl_plugin_slsi_hdr10.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libalsautils_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libalsautils_sec.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libaudio-ril.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio-ril.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libaudio_soundtrigger.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_soundtrigger.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libaudioproxy.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioproxy.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthserver.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbauthtzcommon.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcsc.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libdatamod.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdatamod.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib/libegis_fp_normal_sensor_test.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib/libepicoperator.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosdisplay.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgraphicbuffer.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosgscaler.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosscaler.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosutils.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib/libexynosv4l2.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfloatingfeature.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgf_in_system_lib.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgiantmscl.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhwjpeg.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib/libion_exynos.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libprofileparamstorage.so:$(TARGET_COPY_OUT_VENDOR)/lib/libprofileparamstorage.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqfp_sensortest.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/librecordalive.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecordalive.so \
@@ -113,24 +95,12 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecnativefeature.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsecril-client.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensorlistener.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsynaFpSensorTestNwd.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libteecl.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniapi.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuniplugin.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libuuid.so:$(TARGET_COPY_OUT_VENDOR)/lib/libuuid.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/libwvhidl.so:$(TARGET_COPY_OUT_VENDOR)/lib/libwvhidl.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.VP9.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.grip.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudioeffectoffload.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
@@ -139,34 +109,16 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/gatekeeper.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9611.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/gralloc.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.exynos9611.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/hwcomposer.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/memtrack.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/memtrack.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/sensors.sensorhub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/sensors.sensorhub.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libExynosHWCService.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosHWCService.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libExynosOMX_Core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Core.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libExynosOMX_Resourcemanager.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libExynosOMX_Resourcemanager.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libSEF.quram.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSEF.quram.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/lib_SoundBooster_ver1000.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_SoundBooster_ver1000.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libacryl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libacryl_plugin_slsi_hdr10.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacryl_plugin_slsi_hdr10.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libbauthserver.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthserver.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libbauthtzcommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbauthtzcommon.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libcsc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcsc.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libegis_fp_normal_sensor_test.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libegis_fp_normal_sensor_test.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libepicoperator.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libepicoperator.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libexynosdisplay.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosdisplay.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libexynosgraphicbuffer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgraphicbuffer.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libexynosgscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosgscaler.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libexynosscaler.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosscaler.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libexynosutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosutils.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libexynosv4l2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libexynosv4l2.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libfloatingfeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfloatingfeature.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libgf_in_system_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_in_system_lib.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libgiantmscl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgiantmscl.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libhwjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhwjpeg.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libion_exynos.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libion_exynos.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libiwt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libiwt.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libkeymaster_helper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libkeymaster_helper.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libqfp_sensortest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqfp_sensortest.so \
@@ -176,23 +128,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecl.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libuniapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniapi.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libuniplugin.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuniplugin.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libuuid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libuuid.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.AVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.AVC.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.HEVC.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.HEVC.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP8.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP8.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Decoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.VP9.Encoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.VP9.Encoder.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/omx/libOMX.Exynos.WMV.Decoder.so:$(TARGET_COPY_OUT_VENDOR)/lib64/omx/libOMX.Exynos.WMV.Decoder.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/sensors.grip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.grip.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/soundfx/libaudioeffectoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudioeffectoffload.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libsamsungSoundbooster_plus.so \
