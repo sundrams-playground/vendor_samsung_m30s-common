@@ -158,3 +158,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libskeymaster4device \
     manifest_android.hardware.drm@1.3-service.widevine
+
+PRODUCT_PACKAGES += \
+    libGLES_mali_libOpenCL_symlink32 \
+    libGLES_mali_libOpenCL.so_symlink32 \
+    libGLES_mali_libOpenCL.so.1_symlink32 \
+    libGLES_mali_vulkan.universal9611_symlink32 \
+    libGLES_mali_libOpenCL_symlink64 \
+    libGLES_mali_libOpenCL.so_symlink64 \
+    libGLES_mali_libOpenCL.so.1_symlink64 \
+    libGLES_mali_vulkan.universal9611_symlink64

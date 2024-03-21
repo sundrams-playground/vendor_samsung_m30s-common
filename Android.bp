@@ -31,3 +31,59 @@ prebuilt_etc_xml {
 	soc_specific: true,
 }
 
+install_symlink {
+	name: "libGLES_mali_libOpenCL_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libOpenCL.so",
+	symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL.so_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libOpenCL.so.1",
+	symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL.so.1_symlink32",
+	soc_specific: true,
+	installed_location: "lib/libOpenCL.so.1.1",
+	symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_vulkan.universal9611_symlink32",
+	soc_specific: true,
+	installed_location: "lib/hw/vulkan.universal9611.so",
+	symlink_target: "/vendor/lib/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libOpenCL.so",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL.so_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libOpenCL.so.1",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_libOpenCL.so.1_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/libOpenCL.so.1.1",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
+install_symlink {
+	name: "libGLES_mali_vulkan.universal9611_symlink64",
+	soc_specific: true,
+	installed_location: "lib64/hw/vulkan.universal9611.so",
+	symlink_target: "/vendor/lib64/egl/libGLES_mali.so",
+}
+
