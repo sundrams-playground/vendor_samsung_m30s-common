@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/firmware/setfile_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035.bin \
     vendor/samsung/m30s-common/proprietary/vendor/firmware/setfile_gm2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gm2.bin \
     vendor/samsung/m30s-common/proprietary/vendor/lib/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libGLES_mali.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libGrallocWrapper.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/gatekeeper.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/hw/memtrack.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/memtrack.exynos9611.so \
@@ -108,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib/soundfx/libsamsungSoundbooster_plus.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libsamsungSoundbooster_plus.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/vndk/libaudioroute.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libaudioroute.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib/vndk/libtinyalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libtinyalsa.so \
-    vendor/samsung/m30s-common/proprietary/vendor/lib64/libGrallocWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libGrallocWrapper.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/egl/libGLES_mali.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_mali.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/camera.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/camera.exynos9611.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/hw/gatekeeper.exynos9611.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gatekeeper.exynos9611.so \
