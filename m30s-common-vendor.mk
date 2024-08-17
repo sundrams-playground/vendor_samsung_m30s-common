@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libremosaiclib_s5kgm2.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libremosaiclib_s5kgm2.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecaudioinfo.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecaudioinfo.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecnativefeature.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecnativefeature.so \
+    vendor/samsung/m30s-common/proprietary/vendor/lib64/libsecril-client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsecril-client.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsensorlistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorlistener.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libsynaFpSensorTestNwd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynaFpSensorTestNwd.so \
     vendor/samsung/m30s-common/proprietary/vendor/lib64/libteecl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libteecl.so \
@@ -151,4 +152,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libskeymaster4device \
-    manifest_android.hardware.drm@1.3-service.widevine
+    manifest_android.hardware.drm@1.3-service.widevine \
+    vendor.samsung.hardware.radio_manifest_2_33 \
+    vendor.samsung.hardware.radio.exclude.slsi \
+    vendor.samsung.hardware.sehradio_manifest_2_33
